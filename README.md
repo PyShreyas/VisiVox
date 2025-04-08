@@ -46,18 +46,16 @@ VisiVox relies on several Python libraries for image processing, text recognitio
 
 ### 🔧 Required Libraries
 
-All libraries used in the VisiVox project are listed in the [`libraries.txt`](./libraries.txt) file. You can install the required packages manually or use the list as a reference.
+All libraries used in the VisiVox project are listed in the [`libraries.txt`](./libraries.txt) file. 
 
-### 🛠️ Installation (Recommended)
-
+### 🛠️ Installation
+Code:
 ```bash
 pip install opencv-python pytesseract pyttsx3 pyserial numpy pillow imutils matplotlib seaborn pandas plotly
 ```
 
-> ⚠️ Note: `sqlite3` is a built-in Python library and does not require separate installation.
-
-Make sure `Tesseract-OCR` is also installed on your Raspberry Pi or development system. You can install it with:
-
+`Tesseract-OCR` is installed on both the Raspberry Pi and PC for text and OCR evaluation analysis.
+Installation code:
 ```bash
 sudo apt-get install tesseract-ocr
 ```
@@ -79,7 +77,5 @@ VisiVox/
 └── README.md                     # Project overview and documentation
 ```
 
----
 
-Let me know if you'd like to make this folder structure clickable (Markdown links) or add file descriptions to the repo directly!
 
