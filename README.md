@@ -19,11 +19,11 @@ VisiVox is an AI-powered assistive robot designed to aid **visually impaired ind
 
 | Component               | Description                              |
 | ----------------------- | ---------------------------------------- |
-| Raspberry Pi 5 (8GB)    | Central controller and vision processing |
+| Raspberry Pi 4 (8GB)    | Central controller and vision processing |
 | Arduino Nano            | Controls ultrasonic sensors              |
-| Ultrasonic Sensors      | Measures distance to obstacles           |
+| Ultrasonic Sensor      | Measures distance to obstacles           |
 | Camera Module           | Captures frames for text extraction      |
-| IQC Speaker + Amp       | Outputs the TTS voice                    |
+| Speaker                 | Outputs the TTS voice                    |
 | Power Bank (20,000 mAh) | Powers the full system                   |
 |                         |                                          |
 
