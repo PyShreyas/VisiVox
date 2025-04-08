@@ -1,0 +1,23 @@
+# 📚 Python Libraries Used in VisiVox - Assistive Vision and Voice Robot
+
+1. opencv-python           # For image capture, processing, and drawing bounding boxes
+2. pytesseract             # OCR engine wrapper to extract text from images
+3. pyttsx3                 # Offline Text-to-Speech conversion
+4. serial (pyserial)       # Serial communication between Raspberry Pi and Arduino Nano
+5. time                    # For delays and timestamping events
+6. os                      # OS-level file/path operations
+7. numpy                   # Image array manipulations and sensor data handling
+8. PIL (Pillow)            # Image handling and format conversions
+9. imutils                 # Simplified OpenCV operations (resizing, centering, etc.)
+10. threading              # Running TTS and sensor reads asynchronously
+
+# 📈 Libraries for Graph Construction and Data Visualization
+
+11. matplotlib             # For plotting distance graphs, detection logs, etc.
+12. seaborn                # Enhanced plots and visual styling (built on matplotlib)
+13. pandas                 # Managing tabular data and generating plots
+14. plotly                 # (Optional) Interactive graphs and dashboards
+
+# 🗃️ Data Logging and Storage
+
+15. sqlite3                # Local database storage for text logs, obstacle events, and timestamps
